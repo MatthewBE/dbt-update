@@ -374,12 +374,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "dbt-core" },
     { name = "dbt-snowflake" },
+    { name = "snowflake-connector-python" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "dbt-core", specifier = ">=1.11.3" },
     { name = "dbt-snowflake", specifier = ">=1.11.1" },
+    { name = "snowflake-connector-python", specifier = ">=4.2.0" },
 ]
 
 [[package]]
